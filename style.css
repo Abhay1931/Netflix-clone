@@ -428,6 +428,7 @@ footer h3{
 }
 
 @media (max-width: 968px) {
+
     .main {
         height: 60vh;
     }
@@ -472,7 +473,8 @@ footer h3{
     }
 
     .trending_section h2 {
-        margin: auto;
+        font-size: 1.2rem;
+        margin-left: 5%;
         width: 90%;
     }
 
@@ -490,26 +492,40 @@ footer h3{
         justify-content: space-between;
     }
 
+    .reason{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+    }
+
     .reason h2 {
+        font-size: 1.3rem;
+        padding-bottom: 1rem;
         margin: auto;
+        margin-left: 5vw;
         width: 90%;
+    }
+    
+    .faq-container h2{
+        font-size: 1rem;
+        
     }
 
     .information {
-        margin: auto;
-        margin-right: 5%;
-        display: flex;
+        margin: 0 5vw;
         flex-direction: column;
-        width: 90vw;
+        width: 80vw;
     }
 
     .inf {
-        width: 90vw;
+        width: 80vw;
     }
 
     .form_again {
         margin: auto;
-        width: 50%;
+        width: 90%;
+        max-height: 100px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -520,5 +536,13 @@ footer h3{
     .more{
         display: flex;
         flex-direction: column;
+    }
+
+    .ready_to_watch h3{
+        font-size: 0.85rem;
+    }
+
+    footer h3{
+        font-size: 0.931rem;
     }
 }
